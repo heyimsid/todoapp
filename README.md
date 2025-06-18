@@ -12,7 +12,7 @@ This is a simple, modern, and responsive To-Do application built with plain HTML
 
 ## Demo
 
-Open the `(https://sid-todoapp.vercel.app/)` webpage in any modern web browser to run the app locally.
+Open the https://sid-todoapp.vercel.app/ webpage in any modern web browser to run the app locally.
 
 ## Usage
 
