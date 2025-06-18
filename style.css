@@ -1,44 +1,72 @@
-body{
-    font-family:Arial, Helvetica, sans-serif;
-    background-color:aqua;
-    margin:0;
-    padding:0;
-    
-}
-.container{
-    max-width:400px;
-    margin:90px auto;
-    background-color: aliceblue;
-    padding:20px 30px;
-    border-radius: 10px;
-    text-align: center;
-}
-h1{
-        color:black;
-    
-}
-.input-section{
-        display:flex;
-        gap: 10px;
-        margin-bottom:20px;
 
-}
-input[type="text"]{
-    flex:1;
-    padding:10px;
-    border:1px solid #ccc;
-    border-radius: 5px;
-    cursor: pointer;
-}
-ul{
-    list-style-type:none;
-    padding:0;
-}
-li{
-    padding: 8px 10px;
-    background-color: blue;
-    color:white;
-    border: 1px solid chocolate;
-    margin-bottom: 8px;
-    border-radius: 4px;
-}
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: aqua;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 400px;
+        margin: 90px auto;
+        background-color: aliceblue;
+        padding: 20px 30px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+    h1 {
+        color: black;
+        margin-bottom: 24px;
+    }
+    .input-section {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    input[type="text"] {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    input[type="text"]:focus {
+        outline: none;
+        border-color: #10b981; /* teal accent */
+        box-shadow: 0 0 5px #10b981;
+    }
+    button {
+        padding: 10px 25px;
+        background: linear-gradient(135deg, #10b981, #059669);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        font-size: 1rem;
+    }
+    button:hover, button:focus {
+        background: linear-gradient(135deg, #059669, #10b981);
+        outline: none;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        max-height: 300px;
+        overflow-y: auto;
+        margin-top: 0;
+    }
+    li {
+        padding: 10px 12px;
+        background-color: #3b82f6; /* blue */
+        color: white;
+        border: 1px solid #2563eb; /* darker blue */
+        margin-bottom: 10px;
+        border-radius: 6px;
+        font-size: 1rem;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        word-break: break-word;
+    }
+
+    
