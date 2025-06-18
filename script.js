@@ -3,7 +3,7 @@ function addTask(){
     const taskList=document.getElementById("taskList");
     const taskTest=taskInput.ariaValueMax.trim();
     if(taskTest==="")return;
-        const listItem=document.createElement("li");
+        const listItem=document.createElement("listItem");
         listItem.textContent=taskTest;
         taskList.appendChild(listItem);
         taskInput.value='';
